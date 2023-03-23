@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_abstract_animals
+public abstract class Animale
 {
-    internal class Animale
-    {
-    }
+    public void Dormi() => Console.WriteLine("Zzz");
+    public abstract void verso();
+    public abstract void mangia();
 }
+
