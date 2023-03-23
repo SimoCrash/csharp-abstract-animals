@@ -50,8 +50,8 @@ Console.WriteLine("Il verso del passerotto è ");
 passerotto.verso();
 Console.WriteLine("Il passerotto mangia ");
 passerotto.mangia();
-passerotto.Vola();
 Console.WriteLine("__________________________________________________");
+passerotto.Vola();
 
 
 

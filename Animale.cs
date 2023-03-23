@@ -10,14 +10,6 @@ public abstract class Animale
     public void dormi() => Console.WriteLine("Zzz");
     public abstract void verso();
     public abstract void mangia();
-    public void FaiVolare(IVolante animale)
-    {
-        animale.Vola();
-    }
-    public void FaiNuotare(INuotante animale)
-    {
-        animale.Nuota();
-    }
 }
 
 

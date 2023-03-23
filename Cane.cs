@@ -12,13 +12,6 @@ namespace csharp_abstract_animals
 
         public override void verso() => Console.WriteLine("Abbaiare");
 
-        public void Nuota()
-        {
-            Console.WriteLine("Sto nuotando!!!");
-        }
-        public void FaiNuotare(INuotante animale)
-        {
-            animale.Nuota();
-        }
+        public void Nuota() => Console.WriteLine("Sto nuotando!!!");
     }
 }

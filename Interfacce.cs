@@ -11,8 +11,13 @@ namespace csharp_abstract_animals
         public void Nuota();
     }
 
+}
+
+namespace csharp_abstract_animals
+{
     public interface IVolante
     {
         public void Vola();
     }
 }
+
