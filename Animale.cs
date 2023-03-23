@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 public abstract class Animale
 {
-    public void Dormi() => Console.WriteLine("Zzz");
+    public void dormi() => Console.WriteLine("Zzz");
     public abstract void verso();
     public abstract void mangia();
 }

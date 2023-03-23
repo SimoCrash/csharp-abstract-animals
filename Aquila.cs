@@ -8,6 +8,10 @@ namespace csharp_abstract_animals
 {
     public class Aquila : Animale
     {
+        public Aquila()
+        {
+        }
+
         public override void mangia() => Console.WriteLine("Mammiferi");
 
         public override void verso() => Console.WriteLine("Stridare");
