@@ -3,7 +3,7 @@
 //Animale cane = new Cane();
 //Console.WriteLine(cane.dormi());
 //Console.WriteLine(cane.mangia());
-//Console.WriteLine(cane.verso());
+//Console.WriteLine(cane.verso())
 
 Animale cane = new Cane();
 Console.WriteLine("CANE");
