@@ -11,3 +11,12 @@ public abstract class Animale
     public abstract void mangia();
 }
 
+public interface IVolante
+{
+    void Vola();
+}
+
+public interface INuotante
+{
+    void Nuota();
+}
