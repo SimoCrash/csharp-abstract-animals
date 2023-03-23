@@ -29,6 +29,24 @@ Console.WriteLine("__________________________________________________");
 
 Animale delfino = new Delfino();
 Console.WriteLine("DELFINO");
+Console.WriteLine("Verso del delfino mentre dorme ");
+delfino.dormi();
+Console.WriteLine("Il verso del delfino è ");
+delfino.verso();
+Console.WriteLine("Il delfino mangia ");
+delfino.mangia();
+Console.WriteLine("__________________________________________________");
+
+
+Animale passerotto = new Passerotto();
+Console.WriteLine("PASSEROTTO");
+Console.WriteLine("Verso del passerotto mentre dorme ");
+passerotto.dormi();
+Console.WriteLine("Il verso del passerotto è ");
+passerotto.verso();
+Console.WriteLine("Il passerotto mangia ");
+passerotto.mangia();
+Console.WriteLine("__________________________________________________");
 
 
 
