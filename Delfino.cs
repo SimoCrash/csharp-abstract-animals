@@ -4,20 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Delfino : Animale
+namespace csharp_abstract_animals
 {
-    public override bool Equals(object? obj)
+    public class Delfino : Animale
     {
-        return base.Equals(obj);
-    }
+        public override void mangia() => Console.WriteLine("pesci");
 
-    public override int GetHashCode()
-    {
-        return base.GetHashCode();
-    }
-
-    public override string? ToString()
-    {
-        return base.ToString();
+        public override void verso() => Console.WriteLine("fischiare");
     }
 }

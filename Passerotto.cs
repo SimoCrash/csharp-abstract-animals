@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Passerotto
+    public class Passerotto : Animale
     {
+        public override void mangia() => Console.WriteLine("Frutta");
+
+        public override void verso() => Console.WriteLine("Cinguettare");
     }
 }

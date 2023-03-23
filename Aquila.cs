@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Aquila
+    public class Aquila : Animale
     {
+        public override void mangia() => Console.WriteLine("Mammiferi");
+
+        public override void verso() => Console.WriteLine("Stridare");
     }
 }
