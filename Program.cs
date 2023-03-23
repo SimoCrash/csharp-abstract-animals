@@ -13,6 +13,13 @@ Console.WriteLine("Il verso del cane è ");
 cane.verso();
 Console.WriteLine("Il cane mangia ");
 cane.mangia();
+FaiNuotare(cane);
+
+void FaiNuotare(Animale cane)
+{
+    throw new NotImplementedException();
+}
+
 Console.WriteLine("__________________________________________________");
 
 
@@ -24,6 +31,8 @@ Console.WriteLine("Il verso dell'aquila è ");
 aquila.verso();
 Console.WriteLine("L'aquila mangia ");
 aquila.mangia();
+Console.WriteLine($"L'aquila mentre vola dice: ");
+aquila.Vola();
 Console.WriteLine("__________________________________________________");
 
 
@@ -35,6 +44,7 @@ Console.WriteLine("Il verso del delfino è ");
 delfino.verso();
 Console.WriteLine("Il delfino mangia ");
 delfino.mangia();
+delfino.Nuota();
 Console.WriteLine("__________________________________________________");
 
 
@@ -46,6 +56,7 @@ Console.WriteLine("Il verso del passerotto è ");
 passerotto.verso();
 Console.WriteLine("Il passerotto mangia ");
 passerotto.mangia();
+passerotto.Vola();
 Console.WriteLine("__________________________________________________");
 
 
