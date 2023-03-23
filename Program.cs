@@ -13,13 +13,7 @@ Console.WriteLine("Il verso del cane è ");
 cane.verso();
 Console.WriteLine("Il cane mangia ");
 cane.mangia();
-FaiNuotare(cane);
-
-void FaiNuotare(Animale cane)
-{
-    throw new NotImplementedException();
-}
-
+cane.Nuota();
 Console.WriteLine("__________________________________________________");
 
 
